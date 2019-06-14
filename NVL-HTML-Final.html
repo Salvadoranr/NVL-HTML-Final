@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>NVL-HTML-Final</title>
+</head>
+
+<body>
+    <h1>Bienvenido a PET NANNYS</h1>
+    <section>
+        <h2>¿Quienes somos?</h2>
+        <span>somos una empresa con gran amor por los animales, entendemos mas que nadie la preocupacion
+            que tienen los dueños al dejar solas sus preciadas y adoradas mascotas. Es por esto, que ofrecemos
+            los mejores servicios de cuidados y hospedajes que existen en el mercado. de igual forma.
+            ofrecemos manuales y talleres de adiestramiento de animales domesticos </span>
+    </section>
+    <section>
+        <h3>Nuestros productos y servicios</h3>
+        <ul>
+            <li>Hospedajes y cuidado de mascotas</li>
+            <li>Peluqueria</li>
+            <li>Productos alimenticios</li>
+            <li>Productos para el bienestar de tu mascota</li>
+            <li>Juguetes para mascotas</li>
+            <li>Talleres de adiestramiento</li>
+        </ul>
+        <h3>Precios: </h3>
+        <p>contamos con una variedad de precios. si quieres el tuyo personalizado <a href="#Contactanos"> 
+            <strong>Contacta con nosotros </strong> </a></p>
+        <div>
+
+            <table cellspacing="1" cellpadding="1" border="1">
+                <tr>
+                    <th>productos y servicios</th>
+                    <th>precio de referencia</th>
+                    <th>divisa</th>
+                </tr>
+                <tr>
+                    <td>Hospedajes y cuidado de mascotas</td>
+                    <td align="center">15</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Peluqueria</td>
+                    <td align="center">7</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Productos alimenticios</td>
+                    <td align="center">3 - 10</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Productos para el bienestar de tu mascota</td>
+                    <td align="center">12 - 40</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Juguetes para mascotas</td>
+                    <td align="center">7 - 15</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Talleres de adiestramiento</td>
+                    <td align="center">60</td>
+                    <td align="center">€</td>
+                </tr>
+                <tr>
+                    <td>Actividades recreacionales</td>
+                    <td align="center">35</td>
+                    <td align="center">€</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+    <br><br>
+    <section>
+
+        <img src="./images/oso-camaras.jpg" alt="oso polar mirando por una camara fotografica"
+            style="margin-left: 10%; width: 80%; height: 300px;">
+    </section>
+    <br><br>
+
+    <section>
+        <h3> <a name="Contactanos">Contactanos</a> al Tlf. 738-626-697 </h3>
+        <p> <strong>Email welovepets@petnannys.com</strong> </p>
+        <span>O tambien puedes rellenar nuestro formulario y contactaremos contigo.</span>
+        <form>
+            <label> <strong>Nombre: </strong> </label> <input type="text">
+            <br><br>
+            <label> <strong>Telefono: </strong> </label> <input type="number">
+            <br><br>
+            <label> <strong>Email: </strong> </label> <input type="email">
+            <br><br>
+            <label><strong> Tipo de mascota: </strong> </label>
+            <select name="petList">
+                <option value=""> -----</option>
+                <option value="oso"> Oso</option>
+                <option value="anaconda"> Anaconda</option>
+                <option value="jirafa"> Jirafa</option>
+                <option value="leon"> Leon</option>
+                <option value="elefante"> Elefante</option>
+                <option value="cocodrilo"> Cocodrilo</option>
+                <option value="hamster"> Hamster</option>
+                <option value="otros"> otros</option>
+
+            </select>
+            <br><br>
+
+            <label> <strong> Fecha de Reserva: </strong> </label> <input type="date">
+            <br><br>
+
+
+            <button onclick="enviar()">Enviar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
